@@ -1,0 +1,296 @@
+:root {
+    background-image: url("fundos/4598fa55be56642a6f5b537630a678f5.jpg");
+
+    
+}
+
+
+h1 {
+    color:rgb(53, 49, 49);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: none;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid rgb(53, 49, 49);
+    border-radius: 20px;
+    }
+  
+  h3 {
+    padding-top:40px;
+    color: rgb(102, 100, 100);
+    font-size: 11px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+  font-family:"Playfair Display", serif;
+  color: rgb(53, 49, 49);
+  
+}
+
+
+.movie img {
+  margin-left: 20px;
+  margin-top: 50px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+}
+
+#pmovie {
+    padding: 50px;
+    padding-top: 118px;
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+    
+.book {
+  margin-left: 30px;
+}
+
+  .book img {
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 3.5px groove rgb(102, 100, 100);
+    border-radius: 10px;
+}
+#pbook {
+    padding: 50px;
+    padding-top: 120px;
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.series img {
+  margin-left: 20px;
+  margin-top: 50px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+}
+#pseries {
+    padding: 50px;
+    padding-top: 130px;
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.game img {
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 3.5px groove rgb(102, 100, 100);
+    border-radius: 10px;
+}
+#pgame {
+    padding: 50px;
+    padding-top: 145px;
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+/* DIV - SONGS */
+
+.songs {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+/* DIV (<p> + <ul>) - SONGS */
+
+.songs-p-ul {
+  margin-right: 10px;
+  margin-left: 70px;
+}
+
+/* PARAGRAFO(S) - SONGS */
+
+#psongs {
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  /* float: left; */
+  width: 200%;
+  margin-left: 0px;
+  font-size: 20px;
+  color:aliceblue;
+  /* border: 1px solid black; */
+  display: block; 
+  text-align: center;
+  
+}
+
+/* LISTA - SONGS */
+
+#ulsongs {
+  list-style-type:none;
+  padding-top: 20px;
+  padding-left:30px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  /* border: 1px solid black; */
+  display: block;
+  width: 150%;
+  text-align: center;
+  float: left;
+
+}
+
+/* ITENS DA LISTA - SONGS*/
+
+#ulsongs li {
+  font-size: 19.5px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+
+}
+
+/*LINKS DA LISTA - SONGS*/
+
+#ulsongs a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* PSEUDOCLASSE - SONGS */
+
+#ulsongs a:hover {
+  text-decoration: underline;
+}
+
+/* DIV (<img src>)  - SONGS 
+
+.songs-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.songs-img img {
+position:relative;
+width: 100px;
+height: 100px;
+}
+
+.songs-img img:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.songs-img img:nth-child(2) {
+  top: 50px;
+  left: 20px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.songs-img img:nth-child(3) {
+  top: 100px;
+  left: 40px;
+}  */
+
+/* IMAGENS INDIVIDUAIS */
+
+.songs #taylor {
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+  float: right;
+  display: flex;
+  width: 100%;
+  
+}
+.songs #jao {
+  margin-left: 10px;
+  margin-top: 170px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+  float: right;
+  display: flex;
+  width: 100%;
+  
+}
+.songs #louis {
+  margin-left: 10px;
+  margin-right: 7px;
+  margin-top: 108px;
+  margin-bottom: 100px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+  float: right;
+  display: flex;
+  width: 100%;
+
+}
+
+.comfort-character {
+  padding-top: 60px;
+}
+
+.comfort-character img {
+  margin-left: 50px;
+  margin-top: 30px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+}
+ #p-cc {
+   padding: 50px;
+    padding-top: 145px;
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+ }
+.place img {
+  margin-left: 20px;
+  margin-top: 50px;
+  border: 3.5px groove rgb(102, 100, 100);
+  border-radius: 10px;
+}
+#p-place {
+    padding: 50px;
+    padding-top: 130px;
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+footer {
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom:25px;
+    border-top:1px dashed rgb(75, 73, 73);
+    border-bottom:1px dashed rgb(53, 49, 49);
+    color: rgb(102, 100, 100);
+    font-size: 18px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
